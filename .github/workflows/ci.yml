@@ -15,6 +15,8 @@ jobs:
         
       - name: Install dependencies
         run: npm install
+        working-directory: ./todo-app
         
       - name: Build
         run: npm start
+        working-directory: ./todo-app
